@@ -1,0 +1,17 @@
+body{
+	background-color: green;
+}
+.after_befor li:before{
+	content: '(';
+	padding: 10px
+}
+.after_befor li:after{
+	content:')';
+	padding: 10px
+}
+li{
+	color: white;
+}
+
+
+
